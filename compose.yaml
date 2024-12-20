@@ -1,0 +1,6 @@
+﻿services:
+  ncracker:
+    image: ncracker
+    build:
+      context: .
+      dockerfile: NCracker/Dockerfile
